@@ -3,4 +3,7 @@ module repro {
   requires com.fasterxml.jackson.databind;
 
   exports repro;
+  exports repro2;
+
+  opens repro2;
 }
